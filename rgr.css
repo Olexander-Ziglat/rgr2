@@ -1,0 +1,110 @@
+    .div-1 { 
+    background-color: rgb(0, 0, 107);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+     }
+
+    .div-1 h2 {
+        color: rgb(255, 192, 33);
+    }
+
+    .div-3 {
+        text-align: center;
+    }
+    
+    .div-3  img {
+        display: inline-block;
+    }
+    
+    .horizontal-text {
+        background-color: rgb(255, 255, 255);
+    }
+
+     .horizontal-text {
+        display: flex;
+    }
+
+    .horizontal-text a {
+        margin-right: 150px;
+     }
+
+     .horizontal-text a  {
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        color: rgb(20, 20, 113);
+     }
+
+
+     .div-5 {
+        background-color: rgb(0, 0, 107);
+        color: white;
+     }
+
+     .div-5 {
+        display: flex;
+    }
+
+    .div-5 p {
+        margin-right: 150px;
+        font-family: Arial, sans-serif;
+     }
+     
+     .div-6:hover {
+        color: blue;
+     }
+
+     .div-7:hover {
+        color: blue;
+     }
+
+     .div-8:hover {
+        color: blue;
+     }
+
+     .photo-row {
+        display: flex;
+      }
+      
+      .photo-row a {
+        margin-right: 280px;
+      }
+      
+      .photo-row a:last-child {
+        margin-right: 0; 
+      }
+
+      .div-9 {
+        background-color: rgb(0, 0, 107);
+        color: white;
+      }
+      
+      .div-9 {
+        display: flex;
+      }
+      
+      .div-9 p {
+        font-family: Arial, sans-serif;
+      }
+
+      .div-4 {
+        font-size: 24px;
+      }
+
+      .carousel-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+     }
+
+     #carouselExampleIndicators {
+      width: 75%;
+  }
+
+  @media (max-width: 768px) {
+   .news .col-md-4 {
+       flex: 0 0 100%;
+       max-width: 100%;
+   }
+}

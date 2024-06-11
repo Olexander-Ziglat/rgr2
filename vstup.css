@@ -1,0 +1,19 @@
+.div-1 {
+    background-color: rgb(0, 0, 107);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div-2 {
+    font-size: 40px;
+}
+
+.horizontal-photo {
+    display: flex;
+}
+
+.horizontal-photo {
+    text-decoration: none;
+    margin-right: 300px;
+}
